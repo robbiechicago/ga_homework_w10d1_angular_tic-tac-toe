@@ -9,24 +9,24 @@
 </head>
 <body>
 
-  <section id="container">
+  <section id="container" ng-controller="TttController as ttt">
     <h1>Tic-Tac-RoHo</h1>
 
     <table>
       <tr>
-        <td id="cell1" class="cell"></td>
-        <td id="cell2" class="cell"></td>
-        <td id="cell3" class="cell"></td>
+        <td id="cell1" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell2" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell3" class="cell" ng-click="ttt.move()"></td>
       </tr>
       <tr>
-        <td id="cell4" class="cell"></td>
-        <td id="cell5" class="cell"></td>
-        <td id="cell6" class="cell"></td>
+        <td id="cell4" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell5" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell6" class="cell" ng-click="ttt.move()"></td>
       </tr>
       <tr>
-        <td id="cell7" class="cell"></td>
-        <td id="cell8" class="cell"></td>
-        <td id="cell9" class="cell"></td>
+        <td id="cell7" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell8" class="cell" ng-click="ttt.move()"></td>
+        <td id="cell9" class="cell" ng-click="ttt.move()"></td>
       </tr>
     </table>
   </section>
