@@ -10,6 +10,7 @@ function TttController() {
     if (ox === 'NOUGHT') {
       ox = "CROSS";
       console.log(ox);
+
     } else {
       ox = "NOUGHT";
       console.log(ox);
